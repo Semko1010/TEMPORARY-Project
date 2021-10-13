@@ -29,7 +29,7 @@ header div p:first-child{
     padding: 0 500px 0 0;
 }
 
-header div p:nth-child(2){
+header div:nth-of-type(1) p:nth-child(2){
     font-family: Open Sans;
     color: #042A5A;
     display: inline-block;
@@ -79,8 +79,10 @@ font-weight: 700;
 font-family: Athene;
 }
 .blue_img p{
-    
-    width: 290px;
+    font-family: Open Sans;
+    color: #042A5A;
+    width: 295px;
+    padding-left: 6px;
     font-family: Athene;
     font-size: 24px;
     
@@ -88,7 +90,7 @@ font-family: Athene;
 
 
     /*--------------------------
-2.Page Header
+2.Page section Release
 -------------------------*/
 
 .release{
@@ -117,8 +119,6 @@ font-family: Athene;
     margin-left: auto;
     
 }
-
-
 
 .PRINCIPLES p{
     color: #282B29;
@@ -159,3 +159,44 @@ margin:40px
     
 }
 
+.release div:last-child{
+   text-align: right;
+     
+}
+.release div:last-child img{
+    width: 150px;
+    padding: 100px 100px 100px 0;
+     
+}
+.release table{
+    text-align: right;
+    
+}
+
+table tr td{
+    border: 2px solid black;
+    
+}
+
+/*--------------------------
+3.Page section Works
+-------------------------*/
+.works{
+    background:#DEB873;
+}
+.works h2:nth-of-type(1){
+    font-size: 160px;
+    font-family: Athene;
+    font-weight: normal;
+    color: #7D2222;
+    text-align: right;
+}
+
+.img_1{
+    background: url("../img/bg-marconatto-1.jpg");
+    background-repeat: no-repeat;
+}
+
+.img_1 h2{
+    font-size: 64px;
+}
