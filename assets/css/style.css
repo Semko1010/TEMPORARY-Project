@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -15,10 +14,12 @@ header{
     text-align: center;
 }
 header div:nth-child(1){
-    
     text-align: center;
-    
-    
+}
+.spann_line{
+    font-weight: 900;
+    padding-right: 35px;
+    letter-spacing: -6px;
 }
 header div p:first-child{
     font-family: Open Sans;
