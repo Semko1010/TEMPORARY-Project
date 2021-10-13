@@ -1,0 +1,133 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 1440px;
+}
+/*--------------------------
+1.Page Header
+-------------------------*/
+header{
+    background-color: #DEB873;
+    text-align: center;
+    
+}
+header div:nth-child(1){
+    width: 20vw;
+    text-align: start;
+    display: inline-block;
+    
+}
+header p:first-child{
+    font-family: Open Sans;
+    display: inline;
+    color: #042A5A;
+    text-align: start;
+    
+}
+
+header p:nth-child(2){
+    font-family: Open Sans;
+    color: #042A5A;
+}
+header div:nth-child(2){
+    width: 20vw;
+    text-align: end;
+    display: inline-block;
+}
+.border{
+    border-bottom: 2px solid  #042A5A;
+    padding-bottom: 10px;
+}
+
+
+header h1{
+    font-family: Athene;
+    font-size: 160px;
+    color: #042A5A;
+    border-bottom: 2px solid #042A5A;
+    font-weight: normal;
+    display: inline-block;
+    width: 1200px;
+    height: 120px;
+    padding-bottom: 130px;
+}
+header h1+h1{
+    font-family: Athene;
+    font-size: 160px;
+    color: #042A5A;
+    border-bottom: 2px solid #042A5A;
+    display: inline-block;
+    width: 1200px;
+    height: 120px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    
+    
+    
+}
+
+.blue_img{
+width: 350px;
+margin: 0 auto;
+padding: 10px;
+}
+
+.blue_img span{
+font-weight: 700;
+font-family: Athene;
+}
+.blue_img p{
+    padding: 20px 55px 70px 0;  
+    width: 290px;
+    font-family: Athene;
+    font-size: 24px;
+}
+
+
+    /*--------------------------
+2.Page Header
+-------------------------*/
+
+.release{
+    background-color: #F4C4C4;
+}
+.release p:nth-child(1){
+    font-family: Open Sans;
+    color: #282B29;
+    
+    
+}
+.release h2{
+    font-family: Athene;
+    font-size: 160px;
+    color: #282B29;
+    padding: 0 0 0 10px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.release p:nth-of-type(2){
+    font-family: Open Sans;
+    font-size: 18px;
+    color: #282B29;
+    width: 535px;
+    font-weight: normal;
+    margin-left: auto;
+    
+}
+
+
+.PRINCIPLES p{
+    text-align: end;
+}
+.PRINCIPLES p{
+    color: #282B29;
+    font-family: Open Sans;
+    border-bottom: 2px solid black;
+    padding: 100px 0px 0 0;
+    width: 500px;
+    margin-left: auto;
+}
