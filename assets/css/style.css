@@ -16,28 +16,26 @@ header{
     
 }
 header div:nth-child(1){
-    width: 20vw;
-    text-align: start;
-    display: inline-block;
+    
+    text-align: center;
+    
     
 }
-header p:first-child{
+header div p:first-child{
     font-family: Open Sans;
-    display: inline;
+    display: inline-block;
     color: #042A5A;
     text-align: start;
-    
+    padding: 0 500px 0 0;
 }
 
-header p:nth-child(2){
+header div p:nth-child(2){
     font-family: Open Sans;
     color: #042A5A;
-}
-header div:nth-child(2){
-    width: 20vw;
-    text-align: end;
     display: inline-block;
+    padding: 0 0 0 500px;
 }
+
 .border{
     border-bottom: 2px solid  #042A5A;
     padding-bottom: 10px;
@@ -81,10 +79,11 @@ font-weight: 700;
 font-family: Athene;
 }
 .blue_img p{
-    padding: 20px 55px 70px 0;  
+    
     width: 290px;
     font-family: Athene;
     font-size: 24px;
+    
 }
 
 
@@ -120,14 +119,43 @@ font-family: Athene;
 }
 
 
-.PRINCIPLES p{
-    text-align: end;
-}
+
 .PRINCIPLES p{
     color: #282B29;
     font-family: Open Sans;
     border-bottom: 2px solid black;
-    padding: 100px 0px 0 0;
-    width: 500px;
-    margin-left: auto;
+    padding: 100px 0 0px 0;
+    width: 555px;
+    margin: 0 50px 0 auto;
+    text-align: end;
+
 }
+.PRINCIPLES{
+   
+text-align: end;
+
+}
+.PRINCIPLES div span:nth-of-type(1){
+    font-family: Open Sans;
+color: rebeccapurple;
+margin:40px
+
+
+}
+.PRINCIPLES div span:nth-of-type(2){
+    font-family: Open Sans;
+    color: red;
+    margin:40px
+   
+
+}
+.PRINCIPLES div span:nth-of-type(3){
+    font-family: Open Sans;
+    color: red;
+    width: 50px;
+    margin:40px
+
+    
+    
+}
+
