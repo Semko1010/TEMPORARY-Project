@@ -142,13 +142,32 @@ text-align: right;
     width: 150px;
     padding: 5vh 100px 100px 0;
 }
-.release table{
+.table{
+    width: 600px;
+    margin: 20px 0 0 27vw;
     text-align: right;
+    
 }
 
 table tr td{
-    border: 2px solid black;
+    
+    padding: 20px;
+    
 }
+.td_1{
+    text-align: center;
+}
+.td_2{
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+.td_3{
+    width: 150px;
+    
+}
+
+
 
 /*--------------------------
 3.Page section Works
@@ -288,6 +307,7 @@ table tr td{
         line-height: 50px;
         color: #388883;
         font-family: open Sans;
+        cursor: pointer;
     }
     
 
