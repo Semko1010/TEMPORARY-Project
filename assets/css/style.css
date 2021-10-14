@@ -13,6 +13,12 @@ header{
     background-color: #DEB873;
     text-align: center;
 }
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 1440px;
+    
+}
 header div:nth-child(1){
     text-align: center;
 }
@@ -51,7 +57,7 @@ header h1{
     display: inline-block;
     width: 1200px;
     height: 120px;
-    padding-bottom: 130px;
+    padding: 30px 0 110px 0;
 }
 header h1+h1{
     font-family: Athene;
